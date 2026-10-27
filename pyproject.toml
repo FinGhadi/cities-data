@@ -1,0 +1,21 @@
+[project]
+name = "cities-data"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Oumansour Abdelatif", email = "iscsoumansourabdelatif1024@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "ipykernel>=7.4.0",
+    "numpy>=2.5.4",
+    "pandas>=3.1.0",
+]
+
+[project.scripts]
+cities-data = "cities_data:main"
+
+[build-system]
+requires = ["uv_build>=0.12.22,<0.13.0"]
+build-backend = "uv_build"
